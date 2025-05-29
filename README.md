@@ -9,7 +9,7 @@ A simple REST API for managing books.
 ## How to Run
 1. Clone this repo:
    ```sh
-   git clone https://github.com/UrvasMohanty/Rest-AP{.git
+   git clone https://github.com/UrvasMohanty/Rest-API{.git
 2. Install dependencies:
 
     ```sh
