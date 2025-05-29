@@ -34,5 +34,24 @@ If you're comfortable with Git, follow these steps:
 
 #### **Step 1: Initialize Git (If Not Done Already)**
 ```sh
-cd book-api
-git init
+   cd book-api
+   git init
+Step 2: Create a .gitignore File
+sh
+echo "node_modules/" >> .gitignore
+Step 3: Commit Files
+sh
+git add .
+git commit -m "Initial commit: Basic Book API"
+Step 4: Connect to GitHub & Push
+Go to your GitHub repo and copy the remote URL (HTTPS or SSH).
+
+Run:
+
+sh
+git remote add origin https://github.com/yourusername/book-api.git
+git branch -M main
+git push -u origin main
+
+
+
